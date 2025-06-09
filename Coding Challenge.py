@@ -1,5 +1,5 @@
 # Daily-Python-Practice
-Alternates in an Array
+1. Alternates in an Array
 Difficulty: BasicAccuracy: 52.74%Submissions: 204K+Points: 1Average Time: 15m
 You are given an array arr[], the task is to return a list elements of arr in alternate order (starting from index 0).
 
@@ -23,3 +23,5 @@ class Solution:
             else: 
                 continue
         return output
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
