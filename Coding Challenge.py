@@ -1,5 +1,5 @@
 # Daily-Python-Practice
-1. Alternates in an Array
+'''1. Alternates in an Array
 Difficulty: BasicAccuracy: 52.74%Submissions: 204K+Points: 1Average Time: 15m
 You are given an array arr[], the task is to return a list elements of arr in alternate order (starting from index 0).
 
@@ -13,6 +13,7 @@ Skip second element: 2
 Take third element: 3
 Skip fourth element: 4
 ---------------------------
+'''
 class Solution:
     def getAlternates(self, arr):
         # Code Here
@@ -23,6 +24,8 @@ class Solution:
             else: 
                 continue
         return output
+    
+'''
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2. Replace all 0's with 5
 Difficulty: BasicAccuracy: 75.55%Submissions: 93K+Points: 1Average Time: 15m
@@ -37,6 +40,7 @@ Input: n = 121
 Output: 121
 Explanation: Since there are no zeroes in 121, the number remains as 121.
 # Function should return an integer value
+'''
 class Solution:
     def convertFive(self, n):
         # Code here
